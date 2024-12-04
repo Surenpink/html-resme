@@ -1,0 +1,142 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.name-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.name-title p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Summary Section */
+.summary {
+    margin-bottom: 30px;
+}
+
+.summary h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Skills Section */
+.skills {
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.job ul li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.education {
+    margin-bottom: 30px;
+}
+
+.education h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.degree h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.degree p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+    margin-top: 40px;
+}
